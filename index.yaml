@@ -1,45 +1,11 @@
 apiVersion: v1
 entries:
-  data-prepper:
-  - annotations:
-      artifacthub.io/category: monitoring-logging
-      artifacthub.io/license: Apache-2.0
-      artifacthub.io/links: |
-        - name: Data Prepper Documentation
-          url: https://opensearch.org/docs/latest/data-prepper/
-        - name: OpenSearch Project
-          url: https://opensearch.org
-    apiVersion: v2
-    appVersion: 2.8.0
-    created: "2024-08-06T15:29:18.123325427Z"
-    description: A Helm chart for Data Prepper
-    digest: d1b139575b300b312affac20c1aa2e62689060e18707d6acc4b55200ae1b5204
-    home: https://opensearch.org/docs/latest/data-prepper/
-    maintainers:
-    - name: gaiksaya
-      url: https://github.com/gaiksaya
-    - name: peterzhuamazon
-      url: https://github.com/peterzhuamazon
-    - name: prudhvigodithi
-      url: https://github.com/prudhvigodithi
-    - name: sergk
-      url: https://github.com/sergk
-    - name: TheAlgo
-      url: https://github.com/TheAlgo
-    name: data-prepper
-    sources:
-    - https://github.com/opensearch-project/data-prepper
-    - https://github.com/opensearch-project/helm-charts
-    type: application
-    urls:
-    - https://github.com/prudhvigodithi/helm-charts/releases/download/data-prepper-0.1.0/data-prepper-0.1.0.tgz
-    version: 0.1.0
   opensearch:
   - apiVersion: v2
-    appVersion: 2.15.0
-    created: "2024-08-06T15:29:18.250015352Z"
+    appVersion: 2.16.0
+    created: "2024-08-07T22:43:08.671585324Z"
     description: A Helm chart for OpenSearch
-    digest: cd2a2f9002b7c216477e12bcbb88c7e8b61477966a32fb4e615ec87833940a1a
+    digest: cfe56da18d300a6f488f54bc6c63511e323aadaf150536911db43fd57c21c370
     home: https://opensearch.org
     maintainers:
     - name: DandyDeveloper
@@ -53,14 +19,14 @@ entries:
     - https://github.com/opensearch-project/helm-charts
     type: application
     urls:
-    - https://github.com/prudhvigodithi/helm-charts/releases/download/opensearch-2.21.0/opensearch-2.21.0.tgz
-    version: 2.21.0
+    - https://github.com/prudhvigodithi/helm-charts/releases/download/opensearch-2.22.0/opensearch-2.22.0.tgz
+    version: 2.22.0
   opensearch-dashboards:
   - apiVersion: v2
-    appVersion: 2.15.0
-    created: "2024-08-06T15:29:18.394719427Z"
+    appVersion: 2.16.0
+    created: "2024-08-07T22:43:08.787076553Z"
     description: A Helm chart for OpenSearch Dashboards
-    digest: 0923edffaf966b34ae0b4a8db0be3d91c6772b2ef0f0add0ce5f3dbb42c9a337
+    digest: 7406756ed491c56b7d22f12fb89a48e899b5c60ca7a5d4b6736f3534cd37fa86
     maintainers:
     - name: DandyDeveloper
     - name: gaiksaya
@@ -70,6 +36,6 @@ entries:
     name: opensearch-dashboards
     type: application
     urls:
-    - https://github.com/prudhvigodithi/helm-charts/releases/download/opensearch-dashboards-2.19.1/opensearch-dashboards-2.19.1.tgz
-    version: 2.19.1
-generated: "2024-08-06T15:29:18.394781282Z"
+    - https://github.com/prudhvigodithi/helm-charts/releases/download/opensearch-dashboards-2.20.0/opensearch-dashboards-2.20.0.tgz
+    version: 2.20.0
+generated: "2024-08-07T22:43:08.787086111Z"
